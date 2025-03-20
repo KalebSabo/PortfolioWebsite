@@ -1,0 +1,9 @@
+This is a website that I created to showcase my portfolio of projects that I have been working on. 
+
+Goals:
+- Upload a showcase of Python projects
+- Clean up the site with Javascript
+- Research migrating from GitHub Pages to another web hosting service due to static site restriction
+
+Current List:
+- Dark Willow Games
