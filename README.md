@@ -7,5 +7,7 @@
 <li>Research migrating from GitHub Pages to another web hosting service due to static site restriction</li>
 </ul>
 <h2>Current Showcase List:</h2>
-- Index/Introduction
-- Dark Willow Games
+<ul>
+  <li>Index/Introduction</li>
+  <li>Dark Willow Games</li>
+</ul>
