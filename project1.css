@@ -14,19 +14,66 @@ body {
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding-top: 60px
+
+}
+
+p.introduction {
+    color: black;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+h2.aboutme {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+    margin-left: 825px;
+    margin-right: 50px;
+}
+
+p.aboutme{
+    color: black;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    font-size: 18px;
+    margin-left: 700px;
+    margin-right: 50px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+.spacing{
+    padding: 20px;
+    background-color: #5ba1ad;
 }
 
 h1 {
-    color: rgb(0, 183, 255);
+    color: rgb(46, 206, 255);
     background-color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     font-style: bold;
     padding: 10px;
     text-align: center;
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
 }
 
 h2 {
@@ -37,6 +84,11 @@ h2 {
     padding: 10px;
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+    margin-left: 825px;
+    margin-right: 50px;
 
 }
 h3 {
@@ -55,11 +107,12 @@ p {
     background-color: rgb(205, 252, 255);
     text-align: center;
     font-size: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 700px;
+    margin-right: 50px;
     padding: 10px;
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
 
     
 }
@@ -69,7 +122,10 @@ p {
     justify-content: center;
     padding: 10px;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -80,7 +136,7 @@ p {
     align-items: center;
     overflow: hidden;
     background-color: #7cddee;
-    padding: 10px 20px;
+    padding: 10px 0px;
     font-size: 32px;
     font: Georgia;
     position: fixed;
@@ -105,4 +161,3 @@ p {
     color: white;
     text-decoration: underline;
 }
-
