@@ -1,10 +1,12 @@
 /* Project 1 CSS */
 
+/* GENERAL section */
+
 html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(129, 129, 129);
 }
 
 body {
@@ -12,10 +14,12 @@ body {
     font-family: Trebuchet, Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(129, 129, 129);
     padding-top: 60px
 
 }
+
+/* INTRODUCTION section */
 
 p.introduction {
     color: black;
@@ -31,6 +35,8 @@ p.introduction {
     
 }
 
+/* ABOUT ME section */
+
 h2.aboutme {
     color: black;
     background-color: rgb(182, 182, 182);
@@ -42,8 +48,10 @@ h2.aboutme {
     border-radius: 20px;
     width: 25%;
     margin: auto;
-    margin-left: 825px;
+    margin-left: 10px;
     margin-right: 50px;
+    
+
 }
 
 p.aboutme{
@@ -51,7 +59,7 @@ p.aboutme{
     background-color: rgb(205, 252, 255);
     text-align: center;
     font-size: 18px;
-    margin-left: 700px;
+    margin-left: 10px;
     margin-right: 50px;
     padding: 10px;
     line-height: 2;
@@ -59,10 +67,46 @@ p.aboutme{
     border-radius: 20px;
 }
 
+/* CERTIFICATIONS section */
+
+h2.certifications {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    inline-size: auto;
+    max-inline-size: 50%;
+}
+
+p.certifications{
+    color: black;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    line-height: 2;
+    inline-size: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+/* SPACING */
+
 .spacing{
     padding: 20px;
     background-color: #5ba1ad;
 }
+
+/* DEFAULTS section */
 
 h1 {
     color: rgb(46, 206, 255);
@@ -78,7 +122,7 @@ h1 {
 
 h2 {
     color: black;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(235, 235, 235);
     text-align: center;
     font-size: 20px;
     padding: 10px;
@@ -87,8 +131,7 @@ h2 {
     border-radius: 20px;
     width: 25%;
     margin: auto;
-    margin-left: 825px;
-    margin-right: 50px;
+    
 
 }
 h3 {
@@ -107,28 +150,30 @@ p {
     background-color: rgb(205, 252, 255);
     text-align: center;
     font-size: 18px;
-    margin-left: 700px;
-    margin-right: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
     padding: 10px;
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
-
-    
 }
+
+/* DEFAULT IMAGE section */
 
 .image {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    align-items: center;
+    display: inline-flex;
     justify-content: left;
-    margin-left: 50px;
+    padding: 5px;
+    align-items: left;
+    justify-content: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     max-width: 100%;
-    height: auto;
 }
 
-
+/* NAVBAR section */
 
 .navbar {
     display: flex;
