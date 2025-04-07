@@ -17,6 +17,7 @@ body {
     background-color: rgb(129, 129, 129);
     padding-top: 60px;
     display : flex;
+    justify-content : center;
 
 }
 
