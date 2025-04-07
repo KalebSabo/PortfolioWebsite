@@ -162,11 +162,6 @@ p {
 /* DEFAULT IMAGE section */
 
 .image {
-    display: inline-flex;
-    justify-content: left;
-    padding: 5px;
-    align-items: left;
-    justify-content: left;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
