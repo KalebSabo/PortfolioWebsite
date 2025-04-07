@@ -21,7 +21,7 @@ body {
 
 /* INTRODUCTION section */
 
-p.introduction {
+.introduction {
     color: black;
     background-color: rgb(205, 252, 255);
     text-align: center;
@@ -37,7 +37,7 @@ p.introduction {
 
 /* ABOUT ME section */
 
-h2.aboutme {
+.aboutme {
     color: black;
     background-color: rgb(182, 182, 182);
     text-align: center;
@@ -54,7 +54,7 @@ h2.aboutme {
 
 }
 
-p.aboutme{
+.aboutme{
     color: black;
     background-color: rgb(205, 252, 255);
     text-align: center;
@@ -69,7 +69,7 @@ p.aboutme{
 
 /* CERTIFICATIONS section */
 
-h2.certifications {
+.certifications {
     color: black;
     background-color: rgb(182, 182, 182);
     text-align: center;
@@ -85,7 +85,7 @@ h2.certifications {
     max-inline-size: 50%;
 }
 
-p.certifications{
+.certifications{
     color: black;
     background-color: rgb(205, 252, 255);
     text-align: center;
