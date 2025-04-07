@@ -15,7 +15,8 @@ body {
     font-size: 14px;
     text-align: center;
     background-color: rgb(129, 129, 129);
-    padding-top: 60px
+    padding-top: 60px;
+    display : flex;
 
 }
 
