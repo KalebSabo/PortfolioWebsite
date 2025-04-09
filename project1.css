@@ -40,24 +40,27 @@ body {
 /* INDEX GRID */
 
 .card-1{
+    display: flex;
     padding: 1em;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 10px;
     background-color: rgb(205, 252, 255);
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    max-width: 400px;
     margin-bottom: 1em;
 }
 .card-2{
+    display: grid;
     padding: 1em;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 10px;
     background-color: rgb(205, 252, 255);
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
     margin-bottom: 1em;
+    width: 100%;
+    max-width: 400px;
 }
 .card-3{
     padding: 1em;
@@ -66,7 +69,7 @@ body {
     background-color: rgb(205, 252, 255);
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    max-width: 400px;
     margin-bottom: 1em;
 }
 
