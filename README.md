@@ -4,7 +4,7 @@
 <ul>
   <li>Upload a showcase of Python projects</li>
   <li>Clean up the site with Javascript</li>
-  <li>Fix mobile version of site</li>
+  <li><s></s>Fix mobile version of site</li>
   
 </ul>
 <h2>Current Showcase List:</h2>
