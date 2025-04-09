@@ -10,107 +10,197 @@ html {
 }
 
 body {
-    
+    height: 100%;
     font-family: Trebuchet, Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: center;
     background-color: rgb(129, 129, 129);
-    padding-top: 60px;
-    display : flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+    padding-top: 30px
+
 }
 
-/* INTRODUCTION section */
+.heading{
 
-.introduction {
-    color: black;
-    background-color: rgb(205, 252, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(179, 179, 179);
     text-align: center;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-}
-
-/* ABOUT ME section */
-
-.aboutme {
-    color: black;
-    background-color: rgb(182, 182, 182);
-    text-align: center;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-}
-
-
-
-/* CERTIFICATIONS section */
-
-.certifications {
-    color: black;
-    background-color: rgb(182, 182, 182);
-    text-align: center;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-}
-
-/* SPACING */
-
-.spacing{
-    padding: 20px;
-    background-color: #5ba1ad;
-}
-
-/* DEFAULTS section */
-
-h1 {
-    color: rgb(46, 206, 255);
-    background-color: rgb(0, 0, 0);
-    font-size: 32px;
-    font-style: bold;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h2 {
-    color: black;
-    background-color: rgb(235, 235, 235);
-    text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
     margin: auto;
+    padding-top: 20px;
     
+    
+}
 
-}
-h3 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+
+/* INDEX section */
+
+
+/* INDEX GRID */
+
+.card-1{
+    padding: 1em;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(205, 252, 255);
     text-align: center;
-    font-size: 20px;
-    margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    margin-bottom: 1em;
 }
-p {
+.card-2{
+    padding: 1em;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    margin-bottom: 1em;
+}
+.card-3{
+    padding: 1em;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    margin-bottom: 1em;
+}
+
+
+.grid-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1em;
+    background-color: rgb(170, 170, 170);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+    
+}
+
+
+/* INTRODUCTION */
+
+h1.introduction {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+p.introduction {
     color: black;
     background-color: rgb(205, 252, 255);
     text-align: center;
-    font-size: 14px;
+    font-size: 32px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+/* ABOUT ME */
+
+h2.aboutme {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+
+}
+
+p.aboutme{
+    color: black;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 10px;
+    line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
 }
 
-/* DEFAULT IMAGE section */
+/* CERTIFICATIONS */
 
-.image {
+h2.certifications {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    inline-size: auto;
+    max-inline-size: 50%;
+}
+
+p.certifications{
+    color: black;
+    background-color: rgb(205, 252, 255);
+    text-align: center;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    line-height: 2;
+    inline-size: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+
+/* PROJECT1 section */
+
+project1.heading {
+    color: black;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    margin: auto;
+    width: 80%;
     
 }
 
-/* NAVBAR section */
+
+
+/* NAVBAR */
 
 .navbar {
     display: flex;
@@ -136,6 +226,7 @@ p {
     text-decoration: none;
     border: 2px solid #5ba1ad;
     margin: 0 10px;
+    border-radius: 20px;
 }
 
 .navbar a:hover {
