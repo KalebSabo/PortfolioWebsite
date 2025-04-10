@@ -23,7 +23,6 @@ html, body {
     margin-top: 40px;
     border: 5px solid rgb(255, 255, 255);
     display: inline-block;
-    margin: auto;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px;
     
@@ -55,6 +54,7 @@ h1.heading{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 400px;
+    margin: auto;
     margin-bottom: 1em;
 }
 
