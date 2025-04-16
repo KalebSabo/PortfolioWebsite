@@ -54,7 +54,6 @@ h1.heading{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 400px;
-    margin: auto;
     margin-bottom: 1em;
 }
 
@@ -115,7 +114,7 @@ p.coding-skills {
     columns: 3 300px;   
     align-items: flex-start;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 80%;
     padding: 1em;
     background-color: rgb(170, 170, 170);
     border: 1px solid white;
