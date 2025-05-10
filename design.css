@@ -7,11 +7,21 @@ html, body {
     font-family: Trebuchet, Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: center;
+    background-image: url("/images/workspace-1280538_1920.jpg");
+    background-attachment: fixed;
     background-color: rgb(75, 75, 75);
     padding-top: 30px
 
 }
 
+body.project1{
+    background-image: url("images/matrix-7484067_1920.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-color: rgb(75, 75, 75);
+    
+    
+}
 .heading{
 
     color: rgb(0, 0, 0);
@@ -54,6 +64,7 @@ h1.heading{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 400px;
+    max-height: fit-content;
     margin-bottom: 1em;
 }
 
@@ -114,7 +125,7 @@ p.coding-skills {
     columns: 3 300px;   
     align-items: flex-start;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 700px;
     padding: 1em;
     background-color: rgb(170, 170, 170);
     border: 1px solid white;
@@ -136,6 +147,7 @@ p.inner-details{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);   
+    
 }
 
 ul.inner-details{
@@ -238,7 +250,17 @@ project1.heading {
     
 }
 
-
+.grasp-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: black;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);
+    
+}
 
 /* NAVBAR */
 
