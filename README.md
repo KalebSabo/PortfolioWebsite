@@ -4,5 +4,5 @@
 <ul>
   <li>Index/Introduction</li>
   <li>Dark Willow Games</li>
-  <li>Home Labbing</li>
+  <li>SideViewTech - A Tech Review Website</li>
 </ul>
