@@ -14,8 +14,7 @@ function myFunction() {
                 then accesses the innerHTML property of the returned result (from the function)
                  and assigns the string "Pressed Button" to the property
                 */
-                document.getElementById("heading").innerHTML = "Button was pressed!"; 
-                document.getElementById("p3_popup_button").innerHTML = "Pressed it!"
+                document.getElementsByClassName("javascript_button")[0].innerHTML = "Pressed it!"
                 // Accesses the window object's alert function and passes in the parameter 'button pressed!'
 				window.alert(project3_javascript_popup); 
 			}

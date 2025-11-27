@@ -14,14 +14,6 @@ html, body {
 
 }
 
-body.project1{
-    background-image: url("images/matrix-7484067_1920.jpg");
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-color: rgba(255, 255, 255, 1);
-    
-    
-}
 .heading{
 
     color: rgb(0, 0, 0);
@@ -68,53 +60,6 @@ h1.heading{
     margin-bottom: 1em;
 }
 
-p.coding-skills {
-    background-color: white;
-    border-radius: 20px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.card-2{
-    /* CompTIA Sec+ */
-    display: grid;
-    padding: 1em;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    background-color: rgb(205, 252, 255);
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 1em;
-    width: 100%;
-    max-width: 400px;
-}
-
-.card-3{
-    /* University of Arizona */
-    padding: 1em;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    background-color: rgb(205, 252, 255);
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin-bottom: 1em;
-}
-
-.card-4{
-    /* GitHub */
-    padding: 1em;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    background-color: rgb(205, 252, 255);
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin-bottom: 1em;
-}
-
 .grid-container {
     display: flex;
     flex-direction: row;
@@ -146,8 +91,7 @@ p.inner-details{
     inline-size: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);   
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);    
 }
 
 ul.inner-details{
@@ -166,73 +110,6 @@ ul.inner-details{
     list-style-type: none;
       
 }
-
-/* INTRODUCTION */
-
-h1.introduction {
-    color: black;
-    background-color: rgb(182, 182, 182);
-    text-align: center;
-    font-size: 40px;
-    padding: 10px;
-    line-height: 2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    margin: auto;
-    width: 80%;
-    
-}
-
-p.introduction {
-    color: black;
-    background-color: rgb(205, 252, 255);
-    text-align: center;
-    font-size: 32px;
-    padding: 10px;
-    line-height: 2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    margin: auto;
-    width: 80%;
-    
-}
-
-/* ABOUT ME */
-
-h2.aboutme {
-    color: black;
-    background-color: rgb(182, 182, 182);
-    text-align: center;
-    font-size: 20px;
-    padding: 10px;
-    line-height: 2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-    width: 25%;
-    margin: auto;
-    margin-left: 10px;
-    margin-right: 50px;
-    
-
-}
-
-p.aboutme{
-    color: black;
-    background-color: rgb(205, 252, 255);
-    text-align: center;
-    font-size: 18px;
-    margin-left: 10px;
-    margin-right: 50px;
-    padding: 10px;
-    line-height: 2;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 20px;
-}
-
-/* CERTIFICATIONS */
-
-
-
 
 /* PROJECT1 section */
 
@@ -303,7 +180,7 @@ project1.heading {
     box-shadow: 5px 5px 5px;
 }
 
-.button {
+.javascript_button {
     background-color: #4CAF50; /* Green */
     border: 2px solid #335a61;
     color: white;
@@ -318,7 +195,7 @@ project1.heading {
     
 }
 
-.button:hover {
+.javascript_button:hover {
     background-color: #45a049;
     box-shadow: 5px 5px 5px;
 }
