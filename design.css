@@ -315,4 +315,10 @@ project1.heading {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    
+}
+
+.button:hover {
+    background-color: #45a049;
+    box-shadow: 5px 5px 5px;
 }
