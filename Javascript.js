@@ -1,3 +1,11 @@
+
+let project3_javascript_popup = `
+    "Button Pressed and the Javascript worked! 
+    https://github.com/KalebSabo/PortfolioWebsite/blob/main/Javascript.js"
+
+
+`;
+
 function myFunction() {
 				/* 
                 accesses the document object's getElementById function, passes in the parameter "heading", 
@@ -7,7 +15,7 @@ function myFunction() {
                 document.getElementById("heading").innerHTML = "Pressed Button"; 
 
                 // Accesses the window object's alert function and passes in the parameter 'button pressed!'
-				window.alert("Button Pressed and the Javascript worked!"); 
+				window.alert(project3_javascript_popup); 
 			}
 
 // this is a Javascript comment
