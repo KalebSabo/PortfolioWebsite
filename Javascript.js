@@ -1,9 +1,9 @@
-
+// Use ` for multi-line strings
 let project3_javascript_popup = `
     The Javascript worked! 
     Check out my github below for how this was done!
 
-    https://github.com/KalebSabo/PortfolioWebsite/blob/main/Javascript.js"
+    https://github.com/KalebSabo"
 
 
 `;
@@ -20,4 +20,4 @@ function myFunction() {
 				window.alert(project3_javascript_popup); 
 			}
 
-// this is a Javascript comment
+            
