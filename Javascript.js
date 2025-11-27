@@ -1,6 +1,8 @@
 
 let project3_javascript_popup = `
-    "Button Pressed and the Javascript worked! 
+    The Javascript worked! 
+    Check out my github below for how this was done!
+
     https://github.com/KalebSabo/PortfolioWebsite/blob/main/Javascript.js"
 
 
@@ -12,8 +14,8 @@ function myFunction() {
                 then accesses the innerHTML property of the returned result (from the function)
                  and assigns the string "Pressed Button" to the property
                 */
-                document.getElementById("heading").innerHTML = "Pressed Button"; 
-
+                document.getElementById("heading").innerHTML = "Button was pressed!"; 
+                document.getElementById("p3_popup_button").innerHTML = "Pressed it!"
                 // Accesses the window object's alert function and passes in the parameter 'button pressed!'
 				window.alert(project3_javascript_popup); 
 			}
