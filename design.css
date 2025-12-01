@@ -7,7 +7,7 @@ html, body {
     font-family: Trebuchet, Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: center;
-    background-image: url("/images/workspace-1280538_1920.jpg");
+    background-image: url("/images/Workspace.jpg");
     background-attachment: fixed;
     background-color: rgb(75, 75, 75);
     padding-top: 30px
@@ -17,7 +17,7 @@ html, body {
 .heading{
 
     color: rgb(0, 0, 0);
-    background-color: rgba(99, 99, 99, 1);
+    background-color: rgba(79, 159, 250, 0.205);
     text-align: center;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,7 +45,7 @@ h1.heading{
 /* INDEX GRID */
 
 .card-1{            
-    /* Introduction */
+    
     display: grid;
     align-self: flex-start;
     padding: 1em;
@@ -60,6 +60,17 @@ h1.heading{
     margin-bottom: 1em;
 }
 
+.card-image {
+    max-width: 300px;
+    margin: 0 auto;
+    max-height: 300px;
+    display: block;
+    border: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);
+    
+}
 
 .grid-container {
     display: flex;
@@ -73,7 +84,7 @@ h1.heading{
     margin: 0 auto;
     max-width: 700px;
     padding: 1em;
-    background-color: rgb(170, 170, 170);
+    background-color: rgba(170, 170, 170, 0.527);
     background-image: "Astronaut Image.jpg";
     border: 1px solid white;
     border-radius: 10px;
@@ -149,7 +160,7 @@ project1.heading {
     align-items: center;
     overflow: hidden;
     box-sizing: border-box;
-    background-color: #7cddee;
+    background-color: #7cddeee8;
     padding: 10px 0px;
     font-size: 32px;
     font: Georgia;
@@ -166,7 +177,7 @@ project1.heading {
     float: center;
     display: block;
     color: white;
-    background-color: #5ba1ad;
+    background-color: #5ba1ad9f;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -191,9 +202,10 @@ project1.heading {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 40px 2px;
     cursor: pointer;
     border-radius: 12px;
+    
     
 }
 
