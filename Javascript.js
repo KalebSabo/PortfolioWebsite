@@ -10,7 +10,7 @@ let project3_javascript_popup = `
 
 function myFunction() {
 				/* 
-                accesses the document object's getElementById function, passes in the parameter "heading", 
+                accesses the document object's getElementByClassName function, passes in the parameter "heading", 
                 then accesses the innerHTML property of the returned result (from the function)
                  and assigns the string "Pressed Button" to the property
                 */

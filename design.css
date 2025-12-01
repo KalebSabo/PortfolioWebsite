@@ -60,6 +60,7 @@ h1.heading{
     margin-bottom: 1em;
 }
 
+
 .grid-container {
     display: flex;
     flex-direction: row;
@@ -73,6 +74,7 @@ h1.heading{
     max-width: 700px;
     padding: 1em;
     background-color: rgb(170, 170, 170);
+    background-image: "Astronaut Image.jpg";
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);   
