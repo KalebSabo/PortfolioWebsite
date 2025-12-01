@@ -6,4 +6,5 @@ of projects that I have been working on. </h1>
   <li>Index/Introduction</li>
   <li>Dark Willow Games</li>
   <li>SideViewTech - A Tech Review Website</li>
+  <li>Godot Games - alias ShadowedHands</li>
 </ul>
