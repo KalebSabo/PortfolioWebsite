@@ -1,20 +1,21 @@
-Portfolio Showcase
+<h1>Portfolio Showcase</h1>
 
-Welcome to my personal portfolio website!
+- Welcome to my personal portfolio website!
 Here you’ll find a curated collection of projects I’ve built, ranging from game development to full-stack web applications. Each project represents countless hours of learning, experimentation, and problem-solving.
 Explore the links below to dive into the details, see live demos, view source code, and read about the technologies and challenges behind each one.
 
-Featured Projects:
+<h2>Featured Projects:</h2>
 
-🕹️ Dark Willow Games
+🕹️ Dark Willow Games -
 My indie game development studio focused on atmospheric, story-driven experiences built with the Godot Engine.
 Features original titles, post-mortems, devlogs, and downloadable builds.
 
 🖥️ SideViewTech – Tech Reviews & Tutorials
 A modern tech review and tutorial platform with in-depth articles, performance benchmarks, and honest opinions on hardware, software, and developer tools. 
 
-🎮 Godot Games (alias: ShadowedHands)
-A showcase of smaller experimental games and prototypes made in Godot under my developer alias ShadowedHands. Includes 2D platformers, puzzle games, and gameplay mechanic experiments.
+🎮 Godot Games (alias: ShadowedHands) -
+A showcase of smaller experimental games and prototypes made in Godot under my developer alias ShadowedHands. 
+Includes 2D platformers, puzzle games, and gameplay mechanic experiments.
 
 I’m a passionate full-stack developer and indie game creator with a love for clean code, performant systems, and immersive experiences. I work primarily with:
 •  Godot (GDScript & C#)
