@@ -1,4 +1,5 @@
 Portfolio Showcase
+
 Welcome to my personal portfolio website!
 Here you’ll find a curated collection of projects I’ve built, ranging from game development to full-stack web applications. Each project represents countless hours of learning, experimentation, and problem-solving.
 Explore the links below to dive into the details, see live demos, view source code, and read about the technologies and challenges behind each one.
