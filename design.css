@@ -5,7 +5,7 @@
 html, body {
     height: 100%;
     font-family: Trebuchet, Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 3vw;
     text-align: center;
     background-image: url("/images/Workspace.jpg");
     background-attachment: fixed;
@@ -41,23 +41,27 @@ img.LeftBanner {
     color: rgb(0, 0, 0);
     background-color: rgba(79, 159, 250, 0.205);
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 40px;
-    margin-top: 40px;
+    margin-top: 6vw;
     border: 5px solid rgba(177, 177, 177, 1);
     display: inline-block;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px;
     
+    
+    
 }
 
 h1.heading{
+    
     border: none;
-    font-size: 80px;
+    font-size: 6vw;
     padding: 20px;
     margin: auto;
     max-width: 800px;
+    
 }
 
 
@@ -172,6 +176,11 @@ project1.heading {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562);
     
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 /* NAVBAR */
