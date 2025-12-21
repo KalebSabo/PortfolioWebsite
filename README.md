@@ -1,36 +1,28 @@
-<h1>Portfolio Showcase</h1>
+# Personal Portfolio Website
 
-- Welcome to my personal portfolio website!
-Here you’ll find a curated collection of projects I’ve built, ranging from game development to full-stack web applications. Each project represents countless hours of learning, experimentation, and problem-solving.
-Explore the links below to dive into the details, see live demos, view source code, and read about the technologies and challenges behind each one.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-kalebsabo.com-blue?style=flat&logo=google-chrome)](https://kalebsabo.com/)
+[![Built With](https://img.shields.io/badge/Built_With-HTML/CSS/JS-orange)](https://github.com/KalebSabo/PortfolioWebsite)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-<h2>Featured Projects:</h2>
+A clean, responsive personal portfolio website showcasing my projects in indie game development, tech reviews, and experimental creations.
 
-🕹️ Dark Willow Games -
-My indie game development studio focused on atmospheric, story-driven experiences built with the Godot Engine.
-Features original titles, post-mortems, devlogs, and downloadable builds.
+**Live Site:** [https://kalebsabo.com](https://kalebsabo.com)
 
-🖥️ SideViewTech – Tech Reviews & Tutorials
-A modern tech review and tutorial platform with in-depth articles, performance benchmarks, and honest opinions on hardware, software, and developer tools. 
+## Featured Projects
 
-🎮 Godot Games (alias: ShadowedHands) -
-A showcase of smaller experimental games and prototypes made in Godot under my developer alias ShadowedHands. 
-Includes 2D platformers, puzzle games, and gameplay mechanic experiments.
+- 🖥️ **SideViewTech**  
+  A modern platform for tech reviews, tutorials, benchmarks, and honest opinions on hardware, software, and developer tools.
 
-I’m a passionate full-stack developer and indie game creator with a love for clean code, performant systems, and immersive experiences. I work primarily with:
-•  Godot (GDScript & C#)
-•  JavaScript / CSS / HTML
-•  Python
-•  Clip Studio Paint
-•  And various game engines & creative tools
-When I’m not coding, you can find me designing levels, composing chiptune music, or writing tech deep-dives.
+- 🎮 **Godot Games (alias: ShadowedHands)**  
+  Experimental 2D games, prototypes, platformers, and puzzle mechanics built under my developer alias.
 
-Get in Touch
-•  🐙 GitHub: github.com/KalebSabo
-•  🎮 Itch.io: shadowedhands.itch.io
-•  💼 LinkedIn: linkedin.com/in/KalebSabo
+- 🌡️ **Radiative Cooling Simulation**  
+  An interactive simulation exploring passive cooling technologies.
 
-Thanks for stopping by! Feel free to explore, play the games, read the articles, and reach out if you’d like to collaborate or just chat about tech and games.
-Made with ❤️ and a lot of coffee.
+## Technologies Used
 
-Last updated: December 2025
+- **Frontend:** HTML, CSS, JavaScript
+- **Game Development:** Godot Engine (GDScript & C#)
+- **Other Tools:** Python, Clip Studio Paint
+
+The site is fully static, responsive, and hosted via GitHub Pages with a custom domain.
