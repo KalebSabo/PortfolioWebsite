@@ -5,7 +5,9 @@ let project3_javascript_popup = `
 
     https://github.com/KalebSabo"
 
+    Looking to collab? message me on LinkedIn!
 
+    https://www.linkedin.com/in/kalebsabo
 `;
 
 function myFunction() {
