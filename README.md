@@ -19,7 +19,7 @@ Welcome to my portfolio! As a passionate engineer, maker, and game developer, I 
 
 - 🖥️ **Szaber Design**  
   An upcoming website focused on engineering principles and 3D printed design. Szaber Design aims to provide innovative solutions and insights into various engineering challenges.
-  [https://SzaberDesign.com](Szaber Design)
+[https://SzaberDesign.com](Szaber Design)
 
 - 🎮 **Godot Games (alias: ShadowedHands)**  
   Experimental 2D games, prototypes, and platformers built under my developer alias.
