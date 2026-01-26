@@ -10,9 +10,9 @@ A clean, responsive personal portfolio website showcasing my projects in indie g
 
 ## Featured Projects
 
-- 🖥️ **SideViewTech**  
-  A modern platform for tech reviews, tutorials, benchmarks, and honest opinions on hardware, software, and developer tools.
-
+- 🖥️ **Szaber Design**  
+  An upcoming project focused on engineering principles and 3D printed design. Szaber Design aims to provide innovative solutions and insights into various engineering challenges.
+						
 - 🎮 **Godot Games (alias: ShadowedHands)**  
   Experimental 2D games, prototypes, platformers, and puzzle mechanics built under my developer alias.
 
