@@ -4,7 +4,7 @@
 [![Built With](https://img.shields.io/badge/Built_With-HTML/CSS/JS-orange)](https://github.com/KalebSabo/PortfolioWebsite)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Welcome to my portfolio! I'm Kaleb Sabo (@KalebJStone), a passionate engineer, developer, and creator. With a background in mechanical engineering, robotics, simulation technologies, and game development, I blend innovative hardware projects with software prototypes to explore real-world challenges like thermal management, locomotion, and interactive design.
+Welcome to my portfolio! As a passionate engineer, maker, and game developer, I blend creativity with technical expertise to bring innovative ideas to life. My work spans interactive simulations, robotics, 3D-printed designs, and game prototyping, often leveraging tools like 3D printing, simulation software, and game engines such as Godot. Below, I highlight some of my featured projects that showcase my skills in problem-solving, prototyping, and exploring emerging technologies.
 
 **Live Site:** [https://kalebsabo.com](https://kalebsabo.com)
 
