@@ -4,20 +4,26 @@
 [![Built With](https://img.shields.io/badge/Built_With-HTML/CSS/JS-orange)](https://github.com/KalebSabo/PortfolioWebsite)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A clean, responsive personal portfolio website showcasing my projects in indie game development, tech reviews, and experimental creations.
+Welcome to my portfolio! I'm Kaleb Sabo (@KalebJStone), a passionate engineer, developer, and creator. With a background in mechanical engineering, robotics, simulation technologies, and game development, I blend innovative hardware projects with software prototypes to explore real-world challenges like thermal management, locomotion, and interactive design.
 
 **Live Site:** [https://kalebsabo.com](https://kalebsabo.com)
 
 ## Featured Projects
 
-- 🖥️ **Szaber Design**  
-  An upcoming project focused on engineering principles and 3D printed design. Szaber Design aims to provide innovative solutions and insights into various engineering challenges.
-						
-- 🎮 **Godot Games (alias: ShadowedHands)**  
-  Experimental 2D games, prototypes, platformers, and puzzle mechanics built under my developer alias.
-
 - 🌡️ **Radiative Cooling Simulation**  
-  An interactive simulation exploring passive cooling technologies.
+  An interactive simulation exploring Radiative Cooling technologies and associated notes on thermal 
+  control systems (TCS).
+
+- 🤖 **Gimli Robot**  
+  Project Gimli is a 4-servo biped robot built with Arduino and 3D-printed parts. It explores basic locomotion, adaptability to different environments, and thermal management concepts. Future goals include integrating sensors for autonomy and experimenting with radiative cooling panels for space-like simulations.
+
+- 🖥️ **Szaber Design**  
+  An upcoming website focused on engineering principles and 3D printed design. Szaber Design aims to provide innovative solutions and insights into various engineering challenges.
+  [https://SzaberDesign.com](Szaber Design)
+
+- 🎮 **Godot Games (alias: ShadowedHands)**  
+  Experimental 2D games, prototypes, and platformers built under my developer alias.
+
 
 ## Technologies Used
 
