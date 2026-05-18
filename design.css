@@ -290,3 +290,110 @@ project1.heading {
     background-color: #45a049;
     box-shadow: 5px 5px 5px;
 }
+
+/* Container layout using CSS Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2-column layout by default */
+    gap: 24px; /* Spacing between cards */
+    padding: 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Base Card Styling */
+.card-full, .card-half {
+    background: #7c87b9d8; /* Replace with your portfolio's card background color */
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 100px;
+}
+
+/* Subtle hover effect */
+.card-full:hover, .card-half:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Sizing Classes */
+.card-full {
+    grid-column: span 2; /* Spans across both columns */
+}
+
+.card-half {
+    grid-column: span 1; /* Spans across a single column */
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.specs-table td, .specs-table th {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.specs-table th {
+    font-weight: bold;
+    color: #00adb5; 
+}
+
+/* Responsive Breakpoint for Mobile Devices */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Drops down to a single column */
+        gap: 16px;
+    }
+
+    .card-full, .card-half {
+        grid-column: span 1; /* Forces all cards to take up full width on mobile */
+    }
+}
+
+/* MEDIA GALLERY SYSTEM */
+
+/* Container for the media items */
+.media-placeholder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatically fits items based on screen width */
+    gap: 16px;
+    margin-top: 16px;
+}
+
+/* Individual media item styling */
+.media-box {
+    background-color: #2b2b2b; /* Darker grey contrast inside the card */
+    border: 2px dashed #555; /* Dashed border gives it a clean "placeholder" look until populated */
+    border-radius: 8px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover effect for the media boxes */
+.media-box:hover {
+    background-color: #363636;
+    border-color: #00adb5; /* Matches your accent color on hover */
+    color: #fff;
+}
+
+/* Responsive constraints for actual images/videos when you add them */
+.media-box img, 
+.media-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures your CAD screenshots or photos fill the box nicely without stretching */
+    border-radius: 6px;
+}
