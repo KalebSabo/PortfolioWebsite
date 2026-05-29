@@ -3,7 +3,7 @@ let project3_javascript_popup = `
     The Javascript worked! 
     Check out my github below for how this was done!
 
-    https://github.com/KalebSabo"
+    https://github.com/KalebSabo
 
     Looking to collab? message me on LinkedIn!
 
