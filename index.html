@@ -1,86 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-	<head>
-		<link href="design.css" type="text/css" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Kaleb Sabo's Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaleb Sabo — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="design.css" rel="stylesheet">
+</head>
+<body>
 
-	</head>
-	<body>
-		<div class = "navbar">
-			<a href="index.html">Home</a>
-			<a href="pages/radiative_cooling_sim.html">Radiative Cooling Sim</a>
-			<a href="pages/eragon_robot.html">Eragon Robot</a>
-			<a href="pages/szaber_design.html">Szaber Design</a>
-			<a href="pages/godot.html">Godot Games</a>
-		</div>
+  <nav class="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="pages/radiative_cooling_sim.html">Radiative Cooling Sim</a>
+    <a href="pages/eragon_robot.html">Eragon Robot</a>
+    <a href="pages/szaber_design.html">Szaber Design</a>
+    <a href="pages/godot.html">Godot Games</a>
+  </nav>
 
-		
-		<div class="heading">
-			<h1 class="heading">Kaleb Sabo's<br><em><u> Portfolio</u></em></h1>
-		</div>
+  <header class="hero">
+    <div class="hero-eyebrow">Portfolio</div>
+    <h1>Kaleb Sabo</h1>
+    <p class="hero-sub">
+      Engineer, developer, and creator — building at the intersection of hardware, software, and design.
+    </p>
+    <div class="hero-links">
+      <a href="https://github.com/KalebSabo" class="btn btn-primary" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/kalebsabo" class="btn btn-outline" target="_blank">LinkedIn</a>
+    </div>
+  </header>
 
-		
-		<div class="grid-container">
-			<div class="card-1">
-				<p class="inner-details">
-					<b><u>Skills:</u></b><br>
-					Electrical/Thermal Engineering<br>
-					Python<br>
-					AI/ML Integration<br>
-					Web/Cloud Development<br>
-					Cybersecurity<br>
-					Visual Design, Adobe, Clip Studio Paint<br>
-					Game Development with Godot and Ren'py<br>
+  <main class="page-container">
 
-				</p>
-				
-			</div>
-			<div class="card-1">
-				<img src="images/comptiaSec.png" alt="CompTIA Security+" width="50%" style="display: block; margin: 0 auto;">
-				<div class="certifications">
-					<p class="inner-details">
-						CompTIA Security+<br>
-						Issued: 2025-3-21<br>
-						<a href="https://www.credly.com/badges/0d70ade5-7de5-42e2-9792-7ebecd98d992">
-							Verification Link
-						</a>
-						<br>AWS AI Practitioner<br>
-						Issued: 2025-09-28<br>
-						<a href="https://www.credly.com/badges/208042f6-f52c-43fb-a023-f72382a610fc/linked_in?t=t3bglf"
-						>
-							Verification Link</a>
-					</p>
-				</div>
-			</div>
-			
-			<div class="card-1">
-				<img src="images/Arizona_Desert.png" alt="University of Arizona" class="card-image">
-				<p class="inner-details">
-					I have completed a Bachelor's of Applied Computing (Network Operations) from the University of Arizona.<br>
-				</p>
-				
-				<button class="javascript_button" type="button" id="javascript_button_id" onclick="myFunction()">
-			Try this button to test out some Javascript!
-				</button>
-			</div>
+    <!-- Skills -->
+    <section class="section">
+      <div class="section-label">Expertise</div>
+      <div class="section-title">Skills &amp; Technologies</div>
+      <div class="card">
+        <div class="skill-list">
+          <span class="skill-tag">Electrical Engineering</span>
+          <span class="skill-tag">Thermal Engineering</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">NumPy / SciPy</span>
+          <span class="skill-tag">AI / ML Integration</span>
+          <span class="skill-tag">Web Development</span>
+          <span class="skill-tag">Cloud (AWS)</span>
+          <span class="skill-tag">Cybersecurity</span>
+          <span class="skill-tag">Godot Engine</span>
+          <span class="skill-tag">GDScript / C#</span>
+          <span class="skill-tag">FreeCAD</span>
+          <span class="skill-tag">3D Printing</span>
+          <span class="skill-tag">Clip Studio Paint</span>
+          <span class="skill-tag">Adobe Suite</span>
+          <span class="skill-tag">Network Operations</span>
+        </div>
+      </div>
+    </section>
 
-			<div class="card-1">
-				<p class="inner-details">
-					GitHub Portfolio:<br>
-					<a href="https://github.com/KalebSabo">GitHub Link</a>
-				</p>
-			</div>
-		</div>
-		
-	
+    <!-- Credentials -->
+    <section class="section">
+      <div class="section-label">Credentials</div>
+      <div class="section-title">Education &amp; Certifications</div>
+      <div class="grid-2">
 
-	<video autoplay muted loop>
-			<source src="videos/AstronautWalking_Grok.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		<script src="main.js"></script>
-	</body>
+        <div class="card">
+          <h2>Certifications</h2>
+          <div class="cert-item">
+            <img src="images/comptiaSec.png" alt="CompTIA Security+" class="cert-icon">
+            <div>
+              <div class="cert-name">CompTIA Security+</div>
+              <div class="cert-date">Issued March 2025</div>
+              <a href="https://www.credly.com/badges/0d70ade5-7de5-42e2-9792-7ebecd98d992" class="cert-link" target="_blank">Verify credential &#8599;</a>
+            </div>
+          </div>
+          <div class="cert-item">
+            <div>
+              <div class="cert-name">AWS AI Practitioner</div>
+              <div class="cert-date">Issued September 2025</div>
+              <a href="https://www.credly.com/badges/208042f6-f52c-43fb-a023-f72382a610fc/linked_in?t=t3bglf" class="cert-link" target="_blank">Verify credential &#8599;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Education</h2>
+          <img src="images/Arizona_Desert.png" alt="University of Arizona"
+               style="border-radius: 10px; margin-bottom: 18px; max-height: 130px; width: 100%; object-fit: cover;">
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.8; margin-bottom: 18px;">
+            <strong>Bachelor's of Applied Computing</strong><br>
+            Network Operations<br>
+            <span style="color: var(--text-faint);">University of Arizona</span>
+          </p>
+          <button class="javascript_button" type="button" onclick="myFunction()">
+            Try some JavaScript
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GitHub CTA -->
+    <section class="section">
+      <div class="card" style="text-align: center; padding: 44px 32px;">
+        <div style="font-size: 2.2rem; margin-bottom: 14px; line-height: 1;">&#128187;</div>
+        <h2 style="font-size: 1.2rem; margin-bottom: 10px;">View My Work on GitHub</h2>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 24px; max-width: 360px; margin-left: auto; margin-right: auto;">
+          Source code for all projects — simulations, robotics, games, and more.
+        </p>
+        <a href="https://github.com/KalebSabo" class="btn btn-primary" target="_blank">github.com/KalebSabo</a>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <div class="bg-video-wrap">
+      <video autoplay muted loop playsinline>
+        <source src="videos/AstronautWalking_Grok.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
 </html>

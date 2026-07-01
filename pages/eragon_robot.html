@@ -1,98 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-	<head>
-		<link href="../design.css" type="text/css" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Eragon Robot</title>
-	</head>
-	<body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eragon Robot — Kaleb Sabo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../design.css" rel="stylesheet">
+</head>
+<body>
 
-		<div class="navbar">
-			<a href="../index.html">Home</a>
-			<a href="radiative_cooling_sim.html">Radiative Cooling Sim</a>
-			<a href="eragon_robot.html">Eragon Robot</a>
-			<a href="szaber_design.html">Szaber Design</a>
-			<a href="godot.html">Godot Games</a>
-		</div>
+  <nav class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="radiative_cooling_sim.html">Radiative Cooling Sim</a>
+    <a href="eragon_robot.html" class="active">Eragon Robot</a>
+    <a href="szaber_design.html">Szaber Design</a>
+    <a href="godot.html">Godot Games</a>
+  </nav>
 
-        <div class="heading">
-            <h1 class="heading">Eragon Robot</h1>
+  <header class="page-header">
+    <div class="eyebrow">ESP32 &middot; FreeRTOS &middot; FreeCAD &middot; Isaac Sim</div>
+    <h1>Eragon Robot</h1>
+    <p class="subtitle">A compact 3D-printed bipedal walker with servo control, balance feedback, and a digital twin in Isaac Sim</p>
+  </header>
+
+  <main class="page-container">
+
+    <section class="section">
+      <div class="grid-2">
+
+        <div class="card col-span-2">
+          <h2>Project Overview</h2>
+          <p style="color: var(--text-muted); font-size: 15px; line-height: 1.85; margin-bottom: 18px;">
+            Eragon is a compact, mostly 3D-printed bipedal walking robot standing approximately 30 cm (1 ft) tall.
+            Built as an advanced, hands-on engineering platform focusing on servo control, basic gait generation,
+            balance feedback loops, and physical mechanical/electrical integration.
+          </p>
+          <a href="https://github.com/KalebSabo/thermal-robot-Eragon" class="btn btn-outline" target="_blank">GitHub Repository &#8599;</a>
         </div>
 
-        <div class="grid-container">
-            
-            <div class="card-full">
-                <h2>Project Overview</h2>
-                <p class="inner-details">
-                    Eragon is a compact, mostly 3D-printed bipedal walking robot standing approximately 30 cm (1 ft) tall. Built as an advanced, hands-on engineering platform, this project focuses on servo control, basic gait generation, balance feedback loops, and physical mechanical/electrical integration.
-                </p>
-                <p class="inner-details">
-                    <a href="https://github.com/KalebSabo/thermal-robot-Eragon" target="_blank"><b>GitHub Repository</b></a> </p>
-            </div>
-
-            <div class="card-half">
-                <h2>Technical Specifications</h2>
-                <table class="specs-table">
-                    <tr>
-                        <th>Component</th>
-                        <th>Value / Technology</th>
-                    </tr>
-                    <tr>
-                        <td><b>Microcontroller</b></td>
-                        <td>ESP32 (Dual-Core)</td> </tr>
-                    <tr>
-                        <td><b>Actuators</b></td>
-                        <td>MG996R High-Torque Servos</td> </tr>
-                    <tr>
-                        <td><b>RTOS</b></td>
-                        <td>FreeRTOS (Task Management)</td> </tr>
-                    <tr>
-                        <td><b>CAD Software</b></td>
-                        <td>FreeCAD</td> </tr>
-                    <tr>
-                        <td><b>Sensors</b></td>
-                        <td>IMU Balance Feedback</td> </tr>
-                </table>
-            </div>
-
-            <div class="card-half">
-                <h2>System Architecture</h2>
-                <p class="inner-details">
-                    The engineering layout balances physical hardware limitations with processing performance:
-                </p>
-                <ul class="inner-details">
-                    <li><b>Mechanical Design:</b> Custom-designed pelvis chassis and leg geometry optimized for structural integrity and torque distribution.</li>
-                    <li><b>Firmware Architecture:</b> Multithreaded core management via FreeRTOS to decouple time-critical balance adjustments from sequence gait schedules.</li>
-                </ul>
-            </div>
-
-            <div class="card-full">
-                <h2>Development Phase: MK1 to Digital Twin</h2>
-                <p class="inner-details">
-                    Following the complete hardware assembly and physical integration of the MK1 platform, the project strategy pivoted toward virtual modeling.
-                </p>
-                <p class="inner-details">
-                    <b>Current Status:</b> Actively transitioning the development track into a <b>Digital Twin simulation</b> space within <b>Isaac Sim</b>. This allows for safe, high-fidelity gait training, physics evaluation, and reinforcement learning optimization before flashing updated control blocks back to the physical hardware.
-                </p>
-            </div>
-
-            <div class="card-full">
-                <h2>Media & Project Renders</h2>
-                <div class="media-placeholder-grid">
-                    <div class="media-box">
-                        <span>[ Photo: FreeCAD Structural Design ]</span> </div>
-                    
-                    <div class="media-box">
-                        <span>[ Photo: Physical Leg Assembly Build ]</span> </div>
-                    
-                    <div class="media-box">
-                        <span>[ Video: Isaac Sim Locomotion Run ]</span> </div>
-                </div>
-            </div>
-
+        <div class="card">
+          <h2>Technical Specifications</h2>
+          <table class="specs-table">
+            <tr>
+              <th>Component</th>
+              <th>Technology</th>
+            </tr>
+            <tr><td>Microcontroller</td><td>ESP32 (Dual-Core)</td></tr>
+            <tr><td>Actuators</td><td>MG996R High-Torque Servos</td></tr>
+            <tr><td>RTOS</td><td>FreeRTOS (Task Management)</td></tr>
+            <tr><td>CAD Software</td><td>FreeCAD</td></tr>
+            <tr><td>Sensors</td><td>IMU Balance Feedback</td></tr>
+          </table>
         </div>
-		<script src="../main.js"></script>
-    </body>
+
+        <div class="card">
+          <h2>System Architecture</h2>
+          <ul class="styled-list">
+            <li>
+              <strong>Mechanical Design:</strong> Custom-designed pelvis chassis and leg geometry optimized for structural integrity and torque distribution.
+            </li>
+            <li>
+              <strong>Firmware Architecture:</strong> Multithreaded core management via FreeRTOS to decouple time-critical balance adjustments from gait sequences.
+            </li>
+          </ul>
+        </div>
+
+        <div class="card col-span-2">
+          <h2>Development Phase: MK1 to Digital Twin</h2>
+          <p style="color: var(--text-muted); font-size: 15px; line-height: 1.85; margin-bottom: 14px;">
+            Following complete hardware assembly and physical integration of the MK1 platform, the project strategy pivoted toward virtual modeling.
+          </p>
+          <p style="color: var(--text-muted); font-size: 15px; line-height: 1.85;">
+            <strong style="color: var(--accent);">Current Status:</strong> Actively transitioning into a Digital Twin simulation space within
+            <strong>Isaac Sim</strong> — enabling high-fidelity gait training, physics evaluation, and reinforcement learning
+            optimization before flashing updated control blocks back to the physical hardware.
+          </p>
+        </div>
+
+        <div class="card col-span-2">
+          <h2>Media &amp; Project Renders</h2>
+          <div class="media-grid">
+            <div class="media-box">
+              <span>&#128208;</span>
+              <span>FreeCAD Structural Design</span>
+            </div>
+            <div class="media-box">
+              <span>&#129470;</span>
+              <span>Physical Leg Assembly</span>
+            </div>
+            <div class="media-box">
+              <span>&#129302;</span>
+              <span>Isaac Sim Locomotion</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="../main.js"></script>
+</body>
 </html>
