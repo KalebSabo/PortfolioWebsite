@@ -29,7 +29,10 @@
 /* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--navbar-h) + 16px);
+}
 
 body {
   background-color: var(--bg);
@@ -38,7 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   min-height: 100vh;
-  padding-top: var(--navbar-h);
+  padding-top: calc(var(--navbar-h) + 20px);
 }
 
 a { color: var(--accent); text-decoration: none; transition: color var(--transition); }
@@ -232,6 +235,21 @@ strong { color: var(--text); }
   margin-bottom: 14px;
   letter-spacing: -0.01em;
 }
+
+/* ── Prose text block ── */
+.prose {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.prose + .prose { margin-top: 10px; }
+
+.prose strong { color: var(--text); }
 
 /* ── Grids ── */
 .grid-2 {
