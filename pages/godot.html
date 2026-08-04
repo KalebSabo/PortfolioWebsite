@@ -1,73 +1,85 @@
 <!DOCTYPE html>
-<html lang= "en">
-	
-	<head>
-		<link href="../design.css" type="text/css" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Kaleb Sabo's Games</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Godot Games — Kaleb Sabo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../design.css" rel="stylesheet">
+</head>
+<body>
 
-	</head>
-	<body>
+  <nav class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="radiative_cooling_sim.html">Radiative Cooling Sim</a>
+    <a href="eragon_robot.html">Eragon Robot</a>
+    <a href="szaber_design.html">Szaber Design</a>
+    <a href="godot.html" class="active">Godot Games</a>
+  </nav>
 
-		<script src="main.js"></script>
+  <header class="page-header">
+    <div class="eyebrow">Godot Engine &middot; GDScript &middot; Itch.io</div>
+    <h1>Godot Games</h1>
+    <p class="subtitle">Games made under the alias <strong>ShadowedHands</strong> — original art, original code</p>
+  </header>
 
-		<div class = "navbar">
-			<a href="../index.html">Home</a>
-			<a href="radiative_cooling_sim.html">Radiative Cooling Sim</a>
-			<a href="eragon_robot.html">Eragon Robot</a>
-			<a href="szaber_design.html">Szaber Design</a>
-			<a href="godot.html">Godot Games</a>
-		</div>
-		
-		<div class="heading">
-			<h1 class="heading">Godot Games on Itch.io</h1>
-		</div>
+  <main class="page-container">
 
-		<div class="grid-container">
-			<iframe frameborder="0"
-			src="https://itch.io/embed/3833714?linkback=true&amp;border_width=0&amp;bg_color=06000f&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=333333" 
-			width="550" height="165"></iframe>
-			<a href="https://shadowedhands.itch.io/through-the-asteroids"></a></iframe>
+    <section class="section">
+      <div class="grid-2">
 
-			<div class="card-1">
-			<p class="inner-details">
-				Under the alias, <b>ShadowedHands</b>, I have been working on making games using the Godot Engine and 
-				publishing them on Itch.io.
-			</p>
-			</div>
+        <div class="card col-span-2">
+          <h2>Featured Game &mdash; Through the Asteroids!</h2>
+          <div class="embed-wrap" style="margin-top: 16px;">
+            <iframe
+              src="https://itch.io/embed/3833714?linkback=true&amp;border_width=0&amp;bg_color=06000f&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=333333"
+              width="100%" height="165" frameborder="0">
+            </iframe>
+          </div>
+          <div style="margin-top: 14px;">
+            <a href="https://shadowedhands.itch.io/through-the-asteroids" class="btn btn-outline" target="_blank">Play on Itch.io &#8599;</a>
+          </div>
+        </div>
 
-			<div class="card-1">
-			<p class="inner-details">
-				Part of the <a href="https://20_games_challenge.gitlab.io/">20 Games Challenge</a>, I am creating games from scratch 
-					using GDscript and my own art. Its a fun exercise in figuring out
-					the development cycle where I have to wear many hats to get a game across
-					the finish line.<br>Planning to post the scripts on my GitHub soon!
-			</p>
+        <div class="card">
+          <h2>About the Project</h2>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.85; margin-bottom: 14px;">
+            Part of the <a href="https://20_games_challenge.gitlab.io/" target="_blank">20 Games Challenge</a> — creating games
+            from scratch using GDScript and original art. Each game is a full development cycle from idea to release.
+          </p>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.85;">
+            <strong>4 classic games</strong> completed so far, each with an original visual style:
+            Pong, Jetpack Joyride, Space Invaders, and Asteroids.
+          </p>
+        </div>
 
-			<p class="inner-details">
-				So far I have made 4 classic games in my own style. Pong, 
-					Jetpack Joyride, Space Invader and Asteroids! 
-					<br><a href="https://shadowedhands.itch.io/">Itch.io Profile
+        <div class="card">
+          <h2>Find Me Online</h2>
+          <ul class="styled-list">
+            <li><a href="https://shadowedhands.itch.io/" target="_blank">Itch.io &mdash; ShadowedHands &#8599;</a></li>
+            <li><a href="https://x.com/ArtAndExplosion" target="_blank">X &mdash; @ArtAndExplosion &#8599;</a></li>
+          </ul>
+        </div>
 
-					</a>
-			</p>
-			</div>
-		<img src="../images/itchio_profile_snapshot.png" class="grasp-image" alt="Itch.io Profile Snapshot">
+        <div class="card col-span-2">
+          <h2>Player Comments</h2>
+          <img src="../images/Through_the_Asteroids_Comments.jpg" alt="Player Comments on Through the Asteroids"
+               class="project-image" style="margin-top: 12px;">
+        </div>
 
-			
-		
-			<div class="card-1">
-				<p class="inner-details">
-					You can also follow me on my X account where I post updates and artwork for my games<br>
-					<a href="https://x.com/ArtAndExplosion">ArtAndExplosion</a> 
-				</p>
-			</div>
-			<p class="inner-details">
-				Check out some of the comments from players below!<br> From my most recent game "Through the Asteroids!"
-			</p>
-			<img src="../images/Through_the_Asteroids_Comments.jpg" class="grasp-image" alt="Through the Asteroids Comments">
+        <div class="card col-span-2">
+          <h2>Itch.io Profile</h2>
+          <img src="../images/itchio_profile_snapshot.png" alt="Itch.io Profile Snapshot"
+               class="project-image" style="margin-top: 12px;">
+        </div>
 
-		</div>
-		
-  </body>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="../main.js"></script>
+</body>
+</html>
