@@ -1,70 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radiative Cooling Simulation — Kaleb Sabo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="../design.css" rel="stylesheet">
-</head>
-<body>
+<html lang= "en">
+	
+	<head>
+		<link href="../design.css" type="text/css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Radiative Cooling Simulation</title>
 
-  <nav class="navbar">
-    <a href="../index.html">Home</a>
-    <a href="radiative_cooling_sim.html" class="active">Radiative Cooling Sim</a>
-    <a href="eragon_robot.html">Eragon Robot</a>
-    <a href="szaber_design.html">Szaber Design</a>
-    <a href="godot.html">Godot Games</a>
-  </nav>
+	</head>
+	<body>
 
-  <header class="page-header">
-    <div class="eyebrow">Python &middot; NumPy &middot; SciPy &middot; Streamlit</div>
-    <h1>Space Radiative Cooling Simulation</h1>
-    <p class="subtitle">Modeling thermal protection systems for high-heat orbital environments</p>
-  </header>
+		<script src="main.js"></script>
 
-  <main class="page-container">
+		<div class = "navbar">
+			<a href="../index.html">Home</a>
+			<a href="radiative_cooling_sim.html">Radiative Cooling Sim</a>
+			<a href="eragon_robot.html">Eragon Robot</a>
+			<a href="szaber_design.html">SzaberDesign</a>
+			<a href="godot.html">Godot Games</a>
+		</div>
 
-    <section class="section">
-      <div class="grid-2">
-
-        <div class="card col-span-2" style="display: flex; gap: 14px; flex-wrap: wrap; align-items: center;">
-          <a href="https://github.com/KalebSabo/radiative-cooling-simulator" class="btn btn-outline" target="_blank">GitHub Repository &#8599;</a>
-          <a href="https://radiative-cooling-simulator-kalebsabo.streamlit.app" class="btn btn-primary" target="_blank">Live Streamlit App &#8599;</a>
+        <div class="heading">
+            <h1 class="heading">Space Radiative Cooling Simulation</h1>
         </div>
+        <img src="../images/RadCoolPopout.jpg" alt="Radiative Cooling Simulation Popout" class="LeftBanner">
+        <div class="grid-container">
+            
+            <div class="card-1">
+                <p class="inner-details">
+                    <a href="https://github.com/KalebSabo/radiative-cooling-simulator"><b>GitHub Repository</b></a>
+                    <br>
+                    <a href="https://radiative-cooling-simulator-kalebsabo.streamlit.app"><b>Streamlit App</b></a>
+                            <img src="../images/SpaceRadiativeCoolingSimPic.png" alt="Space Radiative Cooling Simulation" class="card-image">
+                </p>
+                <p class="inner-details">
+                    Python-based simulator exploring radiative cooling technologies inspired by SpaceX's reusable heat shielding. Focuses on modeling thermal protection systems (TPS) for high-heat environments, 
+                    with potential applications in orbital data centers for passive heat dissipation in vacuum conditions. Uses NumPy/SciPy for net cooling power calculations, spectral emissivity modeling, and material comparisons. 
+                    
+                    
+                </p>
+                <img src="../images/RadCoolGraph.jpg" alt="Radiative Cooling Simulation Graph" class="card-image">
+            </div>
 
-        <div class="card col-span-2">
-          <h2>Project Overview</h2>
-          <p style="color: var(--text-muted); font-size: 15px; line-height: 1.85;">
-            A Python-based simulator exploring radiative cooling technologies inspired by SpaceX's reusable heat shielding.
-            Focuses on modeling thermal protection systems (TPS) for high-heat environments, with potential applications in
-            orbital data centers for passive heat dissipation in vacuum conditions. Uses NumPy and SciPy for net cooling power
-            calculations, spectral emissivity modeling, and material comparisons.
-          </p>
-        </div>
 
-        <div class="card">
-          <h2>Simulation Screenshot</h2>
-          <img src="../images/SpaceRadiativeCoolingSimPic.png" alt="Radiative Cooling Simulation" class="project-image" style="margin-top: 12px;">
-        </div>
-
-        <div class="card">
-          <h2>Output Graph</h2>
-          <img src="../images/RadCoolGraph.jpg" alt="Radiative Cooling Graph" class="project-image" style="margin-top: 12px;">
-        </div>
-
-        <div class="card col-span-2">
-          <h2>Application Popout</h2>
-          <img src="../images/RadCoolPopout.jpg" alt="Radiative Cooling Popout" class="project-image" style="margin-top: 12px;">
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <script src="../main.js"></script>
-</body>
-</html>
+    </body>
+		

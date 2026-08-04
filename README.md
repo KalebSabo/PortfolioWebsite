@@ -10,18 +10,18 @@ Welcome to my portfolio! As a passionate engineer, maker, and game developer, I 
 
 ## Featured Projects
 
-- 🌡️ **Radiative Cooling Simulation**  
+- **Radiative Cooling Simulation**  
   An interactive simulation exploring Radiative Cooling technologies and associated notes on thermal 
   control systems (TCS).
 
-- 🤖 **Eragon Robot**  
+- **Eragon Robot**  
   Project Eragon is a 4-servo biped robot built with Arduino and 3D-printed parts. It explores basic locomotion, adaptability to different environments, and thermal management concepts. Future goals include integrating sensors for autonomy and experimenting with radiative cooling panels for space-like simulations.
 
-- 🖥️ **Szaber Design**  
-  An upcoming website focused on engineering principles and 3D printed design. Szaber Design aims to provide innovative solutions and insights into various engineering challenges.
+- **SzaberDesign**  
+  An upcoming website focused on engineering principles and 3D printed design. SzaberDesign aims to provide innovative solutions and insights into various engineering challenges.
 https://SzaberDesign.com
 
-- 🎮 **Godot Games (alias: ShadowedHands)**  
+- **Godot Games (alias: ShadowedHands)**  
   Experimental 2D games, prototypes, and platformers built under my developer alias.
 
 
