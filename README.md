@@ -32,3 +32,31 @@ https://SzaberDesign.com
 - **Other Tools:** Python, Clip Studio Paint
 
 The site is fully static, responsive, and hosted via GitHub Pages with a custom domain.
+
+## Project Structure
+
+```
+/
+├── index.html              # Home page (GitHub Pages entry)
+├── CNAME                   # Custom domain
+├── css/
+│   └── design.css          # Shared design system
+├── js/
+│   └── main.js             # Shared scripts
+├── assets/
+│   ├── images/
+│   │   ├── home/           # Home-page media
+│   │   ├── radiative-cooling/
+│   │   ├── eragon/
+│   │   ├── szaber-design/
+│   │   └── godot/
+│   └── videos/
+└── pages/                  # Project detail pages (kebab-case)
+```
+
+**Conventions**
+- Keep `index.html` at the repo root for GitHub Pages.
+- Put styles in `css/`, scripts in `js/`, and media under `assets/`.
+- Group project media by project folder under `assets/images/`.
+- Use kebab-case for file and folder names (no spaces).
+- Old snake_case page URLs redirect to the new kebab-case paths.
